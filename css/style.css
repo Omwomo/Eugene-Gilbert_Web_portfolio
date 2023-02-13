@@ -1,0 +1,68 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem; /* 18px */
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-white);
+  }
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    position: fixed;
+    opacity: 1;
+    background-color: brown;
+
+}
+.lists {
+    display: flex;
+    margin-right: 2rem;
+    margin-top: 0%;
+    padding-top: 0%;
+
+}
+@media (max-width: 28.75em) {
+    .links {
+      justify-content: center;
+    }
+
+    .lists {
+      margin: 0 1rem;
+    }
+  }
+  .lists a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+  }
+  ul {
+    list-style: none;
+  }
+#welcome-section {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--main-red);
+    text-align: center;
+    background-color: blueviolet;
+}
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+h1 {
+    font-size: 6rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 4.2rem;
+    text-align: center;
+  }
